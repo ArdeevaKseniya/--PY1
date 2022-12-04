@@ -1,6 +1,5 @@
 def get_count_char(main_str):
 
-
     new_main_str_dict = {}
     new_main_str = main_str.lower()
     DEFAULT_COUNT = 0
@@ -48,6 +47,7 @@ main_str = """
 
 
 print(get_count_char(main_str))
+# последняя строка
 
 
 
