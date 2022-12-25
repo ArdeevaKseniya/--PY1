@@ -6,8 +6,6 @@ def to_csv_file(filename='', headers='', rows='', delimiter=',', new_line='\n'):
     with open(filename, 'w') as f:
         f.write(delimiter.join(headers))
         f.write(new_line)
-
-    with open(filename, 'a') as f:
         for every_list in rows:
             f.write(delimiter.join(every_list))
             f.write(new_line)
